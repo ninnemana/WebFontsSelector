@@ -79,6 +79,7 @@ $(function(){
             html += '</div>';
             html += '</div>';
         });
+        html += '<div style="clear:both"></div>';
         $(container).append(html);
         $('#loading').hide();
     }
