@@ -18,13 +18,17 @@
     border-radius: 4px 0px 0px 4px;
 }
 
+.font-listing .font-container{
+    float:left;
+    width: 89%;
+}
+
 .font-listing input[type=text]{
     background: white;
     height: 44px;
     line-height: 44px;
     padding:0;
     margin:0;
-    float:left;
     padding-left:10px;
     border: 1px solid #E8EDF2;
     border-left:none;
@@ -35,7 +39,6 @@
 }
 
 .font-options{
-	float: left;
 	height: 25px;
 	line-height: 25px;
     background: #DCE8F4;
