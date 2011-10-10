@@ -62,6 +62,7 @@ $(function(){
             html += '<div class="select">';
             html += '<input type="radio" name="select-font" id="'+font.family+'" value="'+font.famiy+'" tabindex="'+i+'" />';
             html += '</div>';
+            html += '<div class="font-container">';
             html += '<div class="font-options">';
             html += '<span class="font-title">'+font.family+'</span>';
             if(font.variants.length > 0){
@@ -75,6 +76,7 @@ $(function(){
             
             html += '</div>';
             html += '<input type="text" style="font-family:'+font.family+'" value="'+preview_text+'"/>';
+            html += '</div>';
             html += '<div style="clear:both"></div>';
             html += '</div>';
             html += '</div>';

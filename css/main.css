@@ -3,19 +3,25 @@
     margin: 10px;
     float:left;
     border-radius:4px;
-    height: 70px;
+    height: 80px;
+    min-width:360px;
 }
 
 .font-listing .select{
     width:10%;
-    height:70px;
+    height:80px;
     text-align:center;
-    line-height:70px;
+    line-height:80px;
     float:left;
     background: #dce8f4;
     border: 1px solid #e8edf2;
     border-right:none;
     border-radius: 4px 0px 0px 4px;
+}
+
+.font-listing .font-container{
+    width: 89%;
+    float:left;
 }
 
 .font-listing input[type=text]{
@@ -36,8 +42,8 @@
 
 .font-options{
 	float: left;
-	height: 25px;
-	line-height: 25px;
+	height: 35px;
+	line-height: 35px;
     background: #DCE8F4;
     display: block;
     width: 88%;
@@ -55,8 +61,8 @@
     margin: 0px 10px;
     cursor: pointer;
     width: 100px;
-    height: 20px;
-    line-height: 20px;
+    height: 30px;
+    line-height: 30px;
 }
 
 .font-options .preview{
